@@ -4,6 +4,7 @@ namespace WebApplication1
 {
     public class BundleConfig
     {
+        //Instalar NuGet package Install-Package Microsoft.AspNet.Web.Optimization
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/Script/Bundles").Include(
